@@ -11,17 +11,12 @@ import {
 } from "@tabler/icons-react";
 import BGCard from "./BGCard";
 
-import dalai_lama from "../public/chars/dalai_lama.png";
 import debate from "../public/chars/debate.png";
-import elon_musk from "../public/chars/elon_musk.png";
 import expert from "../public/chars/expert.png";
 import idea_generator from "../public/chars/idea_generator.png";
 import marcus_aurelius from "../public/chars/marcus_aurelius.png";
-import oprah from "../public/chars/oprah.png";
 import philosopher from "../public/chars/philosopher.png";
-import stephen_hawking from "../public/chars/stephen_hawking.png";
 import therapist from "../public/chars/therapist.png";
-import tolle from "../public/chars/tolle.png";
 import { useRouter } from "next/router";
 import { addChat, setChosenCharacter } from "@/stores/ChatActions";
 import { submitMessage } from "@/stores/SubmitMessage";
@@ -169,26 +164,6 @@ Ask me what my idea is.`,
   Stoic: {
     shortDescription: "Acceptance, virtue, resilience",
     avatar: marcus_aurelius,
-  },
-  "Stephen Hawking": {
-    shortDescription: "Renowned theoretical physicist",
-    avatar: stephen_hawking,
-  },
-  "Dalai Lama": {
-    shortDescription: "Spiritual leader of Tibetan Buddhism",
-    avatar: dalai_lama,
-  },
-  "Oprah Winfrey": {
-    shortDescription: "Television host, actress and producer",
-    avatar: oprah,
-  },
-  "Eckhart Tolle": {
-    shortDescription: "Spiritual teacher",
-    avatar: tolle,
-  },
-  "Elon Musk": {
-    shortDescription: "Visionary entrepreneur",
-    avatar: elon_musk,
   },
 };
 
