@@ -77,7 +77,7 @@ export const defaultSettings = {
   auto_detect_language_azure: true,
   spoken_language_azure: "English (US)",
   spoken_language_code_azure: "en-US",
-  spoken_language_style: "friendly",
+  spoken_language_style: "chat",
   submit_debounce_ms: 0,
 };
 
