@@ -20,7 +20,6 @@ import {
   Slider,
   Switch,
   NumberInput,
-  Accordion,
   Tabs,
   Text,
   TextInput,
