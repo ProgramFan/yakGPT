@@ -160,7 +160,7 @@ export const initialState = {
   modelChoicesChat: undefined,
   modelChoiceChat: undefined,
   modelChoiceTTS: "azure",
-  modelChoiceSTT: "azure",
+  modelChoiceSTT: "whisper",
   textInputValue: "",
 };
 
